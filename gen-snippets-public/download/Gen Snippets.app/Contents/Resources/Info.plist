@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSAccessibilityUsageDescription</key>
+    <string>GenSnippets needs accessibility access to expand your text shortcuts.</string>
+    <key>NSInputMonitoringUsageDescription</key>
+    <string>GenSnippets needs input monitoring access to detect your text shortcuts.</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>GenSnippets needs to control other applications to expand text.</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeName</key>
+            <string>Text Expansion</string>
+            <key>LSHandlerRank</key>
+            <string>Default</string>
+        </dict>
+    </array>
+    <key>LSUIElement</key>
+    <true/>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>AXIsProcessTrustedWithSecurityBookmark</key>
+    <true/>
+</dict>
+</plist> 
